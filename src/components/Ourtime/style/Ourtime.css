@@ -52,7 +52,7 @@ section.container-ourteam {
 
     section.container-ourteam {
         height: 250vh;
-        min-height: 2024px;
+        min-height: 3024px;
         padding: 5rem 1rem 0 1rem;
         gap: 10px;
     }
@@ -77,5 +77,6 @@ section.container-ourteam {
 
     .container-ourteamTitle p{
         text-align: center;
+        width: 100%;
     }
 }
