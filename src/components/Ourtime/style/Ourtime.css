@@ -1,0 +1,81 @@
+@import url('../../../variables.css');
+
+section.container-ourteam {
+    width: 100vw;
+    height: 130vh;
+    min-height: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 10rem 10rem 0 10rem;
+}
+
+.container-ourteamTitle {
+    width: 100%;
+}
+
+.container-ourteamTitle span {
+    font-family: Inter;
+    font-size: clamp(1.4rem, 0.3197rem + 1.3115vw, 2.4rem);
+    color: var(--cor-secundaria);
+}
+
+.container-ourteamTitle h2 {
+    color: var(--cor-secundaria);
+    font-family: Inter;
+    font-size: clamp(3.4rem, 0.0164rem + 4.4262vw, 9rem);
+}
+
+.container-ourteamTitle p {
+    text-align: left;
+    font-family: Inter;
+    font-size: clamp(1.8rem, 0.3197rem + 1.3115vw, 3.4rem);
+    color: var(--cor-textos-neutros);
+    width: 50%;
+}
+
+.container-ourteamCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1440px) {
+
+    section.container-ourteam {
+        height: 250vh;
+        min-height: 2024px;
+        padding: 5rem 1rem 0 1rem;
+        gap: 10px;
+    }
+
+    .container-ourteamCards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .container-ourteamTitle {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .container-ourteamTitle p{
+        text-align: center;
+    }
+}
