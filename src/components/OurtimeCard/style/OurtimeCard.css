@@ -63,6 +63,7 @@
     .container-ourtimeCardsText {
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
     .container-ourtimeCardsText p {
@@ -82,6 +83,7 @@
     .container-ourtimeCardsText {
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
     .container-ourtimeCardsText p {
