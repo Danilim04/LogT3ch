@@ -1,19 +1,19 @@
 import React from 'react'
-import './style/Ourtime.css'
+// import './style/Ourtime.css'
 import OurteamCards from '../OurtimeCard'
 
 const Ourtime = () => {
     return (
         <>
-            <section className='container-ourteam' >
-                <div className="container-ourteamTitle">
-                    <span>Sobre nós</span>
-                    <h2>Conheça nosso time</h2>
-                    <p>
+            <section className='w-full h-full flex flex-col gap-28 px-5 py-10 lg:px-32' >
+                <div className='w-full flex flex-col items-center gap-5 lg:items-start'>
+                    <span className='font-inter text-center text-secundaria text-2xl 2xl:text-4xl'>Sobre nós</span>
+                    <h2 className='font-inter text-center text-secundaria text-6xl font-bold 2xl:text-9xl' >Conheça nossa equipe</h2>
+                    <p className='font-inter text-center text-textosNeutros text-2xl md:w-2/4 lg:text-left 2xl:text-4xl' >
                         Nossa equipe é formada por jovens talentosos e apaixonados pelo que fazem. Juntos, criam experiências digitais memoráveis e impulsionam negócios para o sucesso. Conheça um pouco sobre nossos colaboradores:
                     </p>
                 </div>
-                <div className="container-ourteamCards">
+                <div className="flex flex-col gap-24 2xl:grid grid-cols-2 grid-rows-2 2xl:gap-24">
                     <OurteamCards
                         nome="Daniel Ferraz"
                         trampo='Desenvolvedor'
