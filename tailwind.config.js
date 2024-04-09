@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      spacing: {
+        'minHero868px': ' 54.25rem'
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/image/homePc.svg')"
+      },
       colors: {
         primary: '#FD7E14',
         secundaria: '#0056B3', 
