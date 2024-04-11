@@ -5,6 +5,7 @@ import Home from '../components/Home'
 import Aboutus from '../components/Aboutus'
 import Testimonial from '../components/Testimonial'
 import Ourtime from '../components/Ourtime';
+import Diferences from '../components/Diferences';
 
 const HomePage = () => {
     return (
@@ -13,8 +14,9 @@ const HomePage = () => {
         <Header />
         <Home />
         <div id='aboutus'><Aboutus /></div>
-        <Testimonial />
+        <Diferences />
         <Ourtime/>
+        <Testimonial />  
       </>
     )
   }
