@@ -10,7 +10,8 @@ export default {
         'minHero868px': ' 54.25rem'
       },
       backgroundImage: {
-        'hero-pattern': "url('/image/homePc.svg')"
+        'hero-pattern': "url('/image/homePc.svg')",
+        'diferences-pattern': "url('/image/diferences.svg')"
       },
       colors: {
         primary: '#FD7E14',
