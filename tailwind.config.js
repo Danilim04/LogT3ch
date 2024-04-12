@@ -11,7 +11,8 @@ export default {
       },
       backgroundImage: {
         'hero-pattern': "url('/image/homePc.svg')",
-        'diferences-pattern': "url('/image/diferences.svg')"
+        'diferences-pattern': "url('/image/diferences.svg')",
+        'newsletter-pattern': "url('/image/newsletter.svg')"
       },
       colors: {
         primary: '#FD7E14',

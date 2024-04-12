@@ -3,22 +3,23 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function SampleNextArrow(props) {
-    const { className, style} = props;
+    const { className, style, onClick} = props;
     return (
       <div
         className={className}
-        style={{ ...style, display: "none"}}
-
+        style={{ ...style, display: "block"}}
+        onClick={onClick}
       />
     );
   }
   
   function SamplePrevArrow(props) {
-    const { className, style} = props;
+    const { className, style, onClick} = props;
     return (
       <div
         className={className}
-        style={{ ...style, display: "none" }}
+        style={{ ...style, display: "block"}}
+        onClick={onClick}
       />
     );
   }

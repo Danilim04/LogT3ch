@@ -6,6 +6,7 @@ import Aboutus from '../components/Aboutus'
 import Testimonial from '../components/Testimonial'
 import Ourtime from '../components/Ourtime';
 import Diferences from '../components/Diferences';
+import NewsLetter from '../components/NewsLetter';
 
 
 const HomePage = () => {
@@ -17,7 +18,8 @@ const HomePage = () => {
         <div id='aboutus'><Aboutus /></div>
         <Diferences />
         <Ourtime/>
-        <Testimonial />  
+        <Testimonial /> 
+        <NewsLetter /> 
       </>
     )
   }
