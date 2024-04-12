@@ -7,6 +7,7 @@ import Testimonial from '../components/Testimonial'
 import Ourtime from '../components/Ourtime';
 import Diferences from '../components/Diferences';
 import NewsLetter from '../components/NewsLetter';
+import Footer from '../components/Footer';
 
 
 const HomePage = () => {
@@ -20,6 +21,7 @@ const HomePage = () => {
         <Ourtime/>
         <Testimonial /> 
         <NewsLetter /> 
+        <Footer/>
       </>
     )
   }
