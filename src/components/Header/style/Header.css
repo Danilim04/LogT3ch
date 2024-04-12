@@ -8,7 +8,7 @@ header.visible {
 header {
     position: fixed;
     width: 100%;
-    top: -100px;
+    top: -250px;
     transition: top 0.3s;
     z-index: 10;
 }

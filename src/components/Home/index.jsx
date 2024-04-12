@@ -18,10 +18,10 @@ const Home = () => {
             soluções web que expandem seu alcance e aceleram seus resultados.
           </p>
           <div className="flex flex-col gap-8 md:flex-row md:mt-5 md:gap-12">
-            <button className="rounded-md bg-primary drop-shadow-md w-48 h-16 text-white text-lg font-thin text-center mt-2 transition duration-200 ease-in hover:text-primary hover:cursor-pointer hover:bg-white hover:shadow-xl hover:scale-110 xl:text-3xl xl:w-96 xl:h-20">
+            <button className="bg-primary drop-shadow-md w-48 h-16 text-white text-lg font-thin text-center mt-2 transition duration-200 ease-in hover:text-primary hover:cursor-pointer hover:bg-white hover:shadow-xl hover:scale-110 xl:text-3xl xl:w-96 xl:h-20">
               Conheça quem somos
             </button>
-            <button className="rounded-md drop-shadow-md w-48 h-16 font-thin text-white text-lg text-center mt-2  bg-transparent border-solid border-primary border-1 transition duration-200 ease-in hover:text-primary hover:cursor-pointer hover:bg-white hover:shadow-xl hover:scale-110 xl:text-3xl xl:w-96 xl:h-20">
+            <button className="drop-shadow-md w-48 h-16 font-thin text-white text-lg text-center mt-2  bg-transparent border-solid border-primary border-1 transition duration-200 ease-in hover:text-primary hover:cursor-pointer hover:bg-white hover:shadow-xl hover:scale-110 xl:text-3xl xl:w-96 xl:h-20">
               Veja os preços
             </button>
           </div>
