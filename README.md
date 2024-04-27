@@ -27,7 +27,7 @@ A combinação de React, Vite, e Tailwind CSS, juntamente com o fluxo de trabalh
 
 ## Contato
 
-Para mais informações sobre o projeto, colaborações ou serviços, por favor entre em contato através de [seu-email@exemplo.com].
+Para mais informações sobre o projeto, colaborações ou serviços, por favor entre em contato através de daniel.ferraz04@hotmail.com.
 
 ---
 
